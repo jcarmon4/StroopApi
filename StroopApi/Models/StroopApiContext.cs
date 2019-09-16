@@ -14,5 +14,6 @@ namespace StroopApi.Models
         }
 
         public DbSet<RecordActivity> RecordActivities { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
