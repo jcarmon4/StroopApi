@@ -13,6 +13,7 @@ namespace StroopApi.Models
         public string Status { get; set; }
         public string Text { get; set; }
         public string Ink { get; set; }
+        public string Selected { get; set; }
         public string Time { get; set; }
     }
 }

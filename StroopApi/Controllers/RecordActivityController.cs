@@ -23,7 +23,7 @@ namespace StroopApi.Controllers
             if (_context.RecordActivities.Count() == 0)
             {
                 _context.RecordActivities.Add(new RecordActivity {
-                    IdUser = 1, Stage = "1", Status = "Ok", Ink = "Rojo", Text = "Rojo", Time = DateTime.Now.ToString("MM/dd/yyyy H:mm:ss")
+                    IdUser = 1, Stage = "1", Status = "Ok", Ink = "rojo", Text = "rojo", Selected = "rojo", Time = DateTime.Now.ToString("MM/dd/yyyy H:mm:ss")
                 });
                 _context.SaveChanges();
             }
